@@ -1,0 +1,25 @@
+#! /bin/bash
+
+break="==============%%%%%%%%%__%%___%%%___%%__%%%%%%%%========================"
+break2="=============%%%....%%__%%___%%%%__%%__%%__%%%%========================"
+break3="=============%%%%%%%%%__%%___%%%_%%%%__%%____%%========================"
+break4="=============%%%________%%___%%%__%%%__%%%%%%%%========================"
+echo $break
+echo $break
+
+echo "Welcome to Ping Tester Tool designed by Stephen Danzey"
+
+echo $break
+echo $break
+
+read "Please enter the website to be pinged"= Pong
+
+ping -c3 $Pong
+
+echo $break
+echo "Ping Completed"
+echo $break
+
+read -p "Please enter to continue"
+
+ifconfig
